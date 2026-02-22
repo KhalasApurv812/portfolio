@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       className="bg-slate-800 p-5 rounded-xl"
     >
       <h3 className="text-xl font-semibold">{project.title}</h3>
-      <p className="text-gray-400 mt-4">{project.desc}</p>
+      <p className="text-gray-400 mt-2">{project.desc}</p>
 
       <div className="mt-3 flex gap-2 flex-wrap">
         {project.tech.map((t: string) => (
